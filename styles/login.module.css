@@ -1,0 +1,24 @@
+.button {
+    background: transparent;
+    border-radius:3px;
+    border: 2px solid blue;
+    color: blue;
+    margin: 0 1em;
+    padding: 0.25em 1em;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

@@ -8,7 +8,10 @@ export function AdminRoute(Component) {
     const router = useRouter();
 
     useEffect(() => {
-      if (isAuthenticated && !loading && user.role !== "admin") {
+      if (
+        !isAuthenticated ||
+        (isAuthenticated && !loading && user.role !== "admin")
+      ) {
         router.push("/");
       }
     }, [isAuthenticated, loading, user]);
